@@ -20,7 +20,6 @@ def app():
 def client(app):
     return app.test_client()
 
-
 @pytest.fixture
 def two_saved_books(app):
     # Arrange
